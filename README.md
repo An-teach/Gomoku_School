@@ -6,7 +6,7 @@
 
 ## 競賽成績與歷程
 
-* **競賽平台**：[Gomoku V2 競賽系統](https://gomoku.csie2.nptu.edu.tw/history)
+* **競賽平台**：[Gomoku V2 競賽系統](https://gomoku.csie2.nptu.edu.tw/history) ==> 點入4強賽 即可觀看決賽
 * **最終名次**：🏆 **冠軍**
 * **決賽晉級路徑**：
 * **16 強賽**：勝出晉級
