@@ -75,9 +75,9 @@ $$\text{Score} = 1.3 \times \text{myScore} + \text{oppScore}$$
 ```text
 ├── Makefile        # 編譯設定檔，可直接生成 cej112016 執行檔
 ├── README.md       # 專案介紹文件
-├── chess.h         # 預設棋譜與開局特徵矩陣
+├── chess.h         # 預設棋譜與開局特徵矩陣，防範程式漏洞、根據對手打擊弱點
 ├── function.h      # 評估函式與檢查模組介面宣告
-├── function.c      # 盤面特徵核對與 8 方向權重評分核心實作
+├── function.c      # 對於可落棋點評分(8方位判斷)
 └── main.c          # 主流程：輸入解析、綜合評分最大化選點與落子決策
 
 ```
