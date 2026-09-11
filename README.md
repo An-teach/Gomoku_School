@@ -93,16 +93,10 @@ $$\text{Score} = 1.3 \times \text{myScore} + \text{oppScore}$$
 
 ## 編譯與執行
 
-使用專案內建的 `Makefile` 即可快速編譯：
-
 ```bash
+# 使用專案的 `Makefile` 快速編譯：
 make
 
-```
-
-執行程式時傳入所屬執棋顏色（`Black` 或 `White`），並透過標準輸入傳入 19x19 棋盤字串：
-
-```bash
+# 執行程式時傳入所屬執棋顏色（`Black` 或 `White`），並透過標準輸入傳入 19x19 棋盤字串：
 ./cej112016 Black < board_state.txt
-
 ```
