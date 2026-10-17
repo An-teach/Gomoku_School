@@ -56,13 +56,13 @@
 
 * **絕殺局面**：若我方存在勝勢點（`myScore >= 10,000,000`），採取強攻策略：
 
-$$\text{Score} = 2 \times \text{myScore} + \text{oppScore}$$
+        Score = 2 * myScore + oppScore
 
 
 
 * **常規對局**：進攻略微優先於防守（1.3 比 1 比例），兼顧封堵對方威脅與己方做棋拓展：
 
-$$\text{Score} = 1.3 \times \text{myScore} + \text{oppScore}$$
+        Score = 1.3 * myScore + oppScore
 
 
 
